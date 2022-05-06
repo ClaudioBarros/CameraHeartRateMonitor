@@ -15,5 +15,44 @@
         opencv:camera_id="any"
         opencv:show_fps="true"/>
 
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="340dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRed"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/textViewGreen"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="236dp"
+        android:text="TextView"
+        opencv:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/textViewBlue"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="132dp"
+        android:text="TextView"
+        opencv:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="450dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
